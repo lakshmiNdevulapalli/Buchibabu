@@ -1,4 +1,4 @@
-class BuchiBabu < Formula
+class Buchibabu < Formula
     desc "BuchiBabu is a bot for generating serverless.yml templates"
     homepage "https://github.com/lakshmiNdevulapalli/Buchibabu"
     url "https://github.com/lakshmiNdevulapalli/Buchibabu/archive/refs/tags/v1.0.0.tar.gz"
