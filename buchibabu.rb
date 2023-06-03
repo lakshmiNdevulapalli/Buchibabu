@@ -7,10 +7,10 @@ class Buchibabu < Formula
     depends_on "python@3.9"
 
     def install
-        bin.install "lakshmindevulapalli/buchibabu"
+        bin.install "buchibabu"
     end
 
     test do
-        system "#{bin}/lakshmindevulapalli/buchibabu", "--version"
+        system "#{bin}/buchibabu", "--version"
     end
 end
