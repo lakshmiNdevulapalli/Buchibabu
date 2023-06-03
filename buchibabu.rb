@@ -7,10 +7,10 @@ class Buchibabu < Formula
     depends_on "python@3.9"
 
     def install
-        bin.install "buchibabu"
+        bin.install "/opt/homebrew/Library/Taps/lakshmindevulapalli/homebrew-buchibabu"
     end
 
     test do
-        system "#{bin}/buchibabu", "--version"
+        system "buchibabu", "--version"
     end
 end
